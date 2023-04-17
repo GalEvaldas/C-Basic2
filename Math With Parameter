@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+public class Hello1 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        Printt();
+       // Printt myProgram = new Printt();
+        
+    }
+    void Printt()
+    {
+        static void Mano(string[] args)
+        {
+            double x = 50.9;
+            Debug.Log(Math.Round(x));
+        }
+
+        string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+        Mano(myArgs); // Call the Mano method with the array of strings as argument
+        Debug.Log("Hello world");
+       
+        double z = 40.9;
+        Debug.Log(Math.Round(z));
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
