@@ -1,0 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+public class Heo2 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        static void main(string[] args)
+        {
+            double x = 20;
+            Debug.Log(Math.Round(x));
+            Heo2 myProgram = new Heo2();
+            myProgram.print();
+            
+        }
+string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+            main(myArgs);
+    }
+    void print()
+    {
+        Debug.Log("this is print funcion");
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
