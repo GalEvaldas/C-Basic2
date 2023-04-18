@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//namespace-> classes -> memebrs -> method -> statment
 public class Hello1 : MonoBehaviour
 {
     // Start is called before the first frame update
