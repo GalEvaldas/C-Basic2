@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+public class InfinityMy : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        static void Mano(string[] args)
+        {
+            double a = Math.Pow(9999, 9999999999);
+            Debug.Log(double.IsFinite(a)+"hi");
+        }
+        string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+        Mano(myArgs); // Call the Mano method with the array of strings as argument
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
