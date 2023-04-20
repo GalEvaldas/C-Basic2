@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+public class Programa : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+     static void Main(string[] args)
+         {
+            double x = 500.9;
+            Debug.Log(Math.Round(x));
+            Person person = new Person();
+            person.FirstName = "Evaldas";
+            person.LastName = "Pavardenis";
+
+            Debug.Log(person.GetFullName());
+
+            //Debug.Log(person.GetFullName);
+            Console.WriteLine(person.GetFullName());
+
+            
+
+        }
+string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+            Main(myArgs); // Call the Mano method with the array of strings as argument
+
+    }
+
+}
