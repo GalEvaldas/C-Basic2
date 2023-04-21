@@ -1,0 +1,40 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+public class SwichMy : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+         static void Main(String[] args)
+        {
+            int number = 31;
+            switch (number)
+            {
+                case 10:
+                    Debug.Log("case 10");
+                    break;
+                case 20:
+                    Debug.Log("case 20");
+                    break;
+                case 30:
+                    Debug.Log("case 30");
+                    break;
+                default:
+                    Debug.Log("None matches");
+                    break;
+            }
+        }
+        string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+        Main(myArgs); // Call the Mano method with the array of strings as argument
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
