@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+public class If : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+         static void Main(string[] args)
+        {
+            string name = "Geek";
+            if (name == "GeekK")
+            {
+                Debug.Log("combinedText");
+                
+            }
+             // Call the Mano method with the array of strings as argumen
+        }
+        string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+        Main(myArgs);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
