@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Temary : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        static void Mano(string[] args)
+        {
+            //expression ? true : false
+            bool correct = true;
+            int pointEarned = correct ? 10 : 0;
+            Debug.Log(pointEarned);
+        }
+        string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+        Mano(myArgs);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
