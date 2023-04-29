@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Funny : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        List<int> stuff = new List<int>() { 1, 8, 99, 999, 8, 9, 1 };
+         stuff.Reverse(); //rikiavimas atvrksciai
+        stuff.Sort(); //rikiavimas pagal dydi
+
+        foreach(int s in stuff)
+        {
+            Debug.Log(s);
+        }
+       
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
