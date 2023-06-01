@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+public class ArraySort : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+       int[] grades = {30, 430, 23, 10 };
+	   Array.Sort(grades);
+	   
+	   for(int i = 0; i < grades.Length; i++;)
+	   {
+		   Debug.Log(grade[i]);
+	   }   
+		   
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
